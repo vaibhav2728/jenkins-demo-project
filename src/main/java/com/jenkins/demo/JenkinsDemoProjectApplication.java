@@ -14,7 +14,7 @@ public class JenkinsDemoProjectApplication {
 
 	@PostConstruct
 	public void init(){
-		logger.info("Application started");
+		logger.info("Application started on port 8081");
 	}
 	public static void main(String[] args) {
 		logger.info("Application Executed");
